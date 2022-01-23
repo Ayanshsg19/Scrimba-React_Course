@@ -1,4 +1,4 @@
-# title(){return this.options.title||this.options.name}
+# Scrimba - Project 1 - Business Card (React.js)
 
 Quick start:
 
