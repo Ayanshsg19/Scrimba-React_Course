@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    max-width: 317px;
+    min-width: 317px;
+    background: #1A1B21;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.container .info-img {
+    width: 317px;
+}
+
+.container .info-img img {
+    width: 100%
+}
+
+.container .info-title {
+    text-align: center;
+}
+
+.container .info-title > div:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.container .info-title > div:nth-child(2) {
+    font-size: 12.8px;
+    color: #F3BF99;
+    margin-top: 7px;
+}
+
+.container .info-title > div:nth-child(3) {
+    font-size: 10.5px;
+    margin-top: 9px;
+}
+
+.container .info-btns {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.container .info-btns .info-email-btn, .container .info-btns .info-li-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    margin: 0 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+}
+
+.container .info-btns .info-email-btn {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #000;
+}
+
+.container .info-btns .info-email-btn img,  .container .info-btns .info-li-btn img {
+    margin-right: 8px;
+    width: 16px;
+}
+
+.container .info-btns .info-li-btn {
+    background: #5093E2;
+}
+
+.container .about, .container .interests {
+    margin: 33px 35px 27px 35px;
+}
+
+.container .about .about-head, .container .interests .interests-head {
+    font-size: 16px;
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+.container .about .a-desc, .container .interests .i-desc {
+    font-size: 10.5px;
+    margin-top: 5px;
+    color: #DCDCDC;
+}
+
+.container .footer {
+    height: 64px;
+    background: #161619;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 15px;
+}
+
+.container .footer .links {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.container .footer .links li{
+    padding-left: 12px;
+    padding-right: 12px;
+}
