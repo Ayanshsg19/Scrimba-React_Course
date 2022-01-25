@@ -1,4 +1,4 @@
-# title(){return this.options.title||this.options.name}
+# Scrimba - Project 2 - Travel Journal (React.js)
 
 Quick start:
 
