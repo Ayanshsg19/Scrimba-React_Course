@@ -1,5 +1,15 @@
 # Scrimba - Project 3 - Meme Generator (React.js)
 
+## Things I learned --
+
+	1. 1. Changing state using React.useState() method.
+	2. Passing state as props, complex state change( in arrays , objects).
+	3. Conditional Rendering.
+	4. Forms in React.
+	5. Making API calls in React using React.useEffect().
+	6. React.useEffect() cleanup function.
+	7. Difference between using async-await and fetch-.then methods in React.useEffect().
+
 <img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/Meme-Generator/Meme%20Generator.png" width="450">
 
 Quick start:
