@@ -1,4 +1,4 @@
-# title(){return this.options.title||this.options.name}
+# Scrimba - Project 3 - Meme Generator (React.js)
 
 Quick start:
 
