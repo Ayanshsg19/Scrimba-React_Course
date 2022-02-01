@@ -1,5 +1,7 @@
 # Scrimba - Project 1 - Business Card (React.js)
 
+<img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/business-card/layout.png" width="420">
+
 Quick start:
 
 ```
