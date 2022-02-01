@@ -1,5 +1,12 @@
 # Scrimba - Project 1 - Business Card (React.js)
 
+## Things I learned --
+
+	1. Basic React Working (imports, dependencies, etc)
+	2. React Theory
+	3. How to create a react app
+	4. React Components
+
 <img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/business-card/layout.png" width="420">
 
 Quick start:
