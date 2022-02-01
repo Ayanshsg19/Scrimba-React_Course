@@ -1,5 +1,7 @@
 # Scrimba - Project 3 - Meme Generator (React.js)
 
+<img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/Meme-Generator/Meme%20Generator.png" width="450">
+
 Quick start:
 
 ```
