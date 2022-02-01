@@ -2,7 +2,7 @@
 
 ## Things I learned --
 
-	1. 1. Changing state using React.useState() method.
+	1. Changing state using React.useState() method.
 	2. Passing state as props, complex state change( in arrays , objects).
 	3. Conditional Rendering.
 	4. Forms in React.
