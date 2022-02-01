@@ -1,5 +1,13 @@
 # Scrimba - Project 2 - Travel Journal (React.js)
 
+## Things I learned --
+
+	1. JSX Theory
+	2. Props in React
+	3. Changing arrays into JSX using Array.map()
+
+<img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/travel-journal/layout.png" width="460">
+
 Quick start:
 
 ```
