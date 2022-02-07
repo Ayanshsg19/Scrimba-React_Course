@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.main, .start, .players, .endgame {
+    width: 360px;
+    height: 379px;
+    background: #0B2434;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-in, .start-in, .players-in, .endgame-in {
+    aspect-ratio: 1;
+    width: 320px;
+    border-radius: 6.5px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+
+.start-in, .players-in {
+    justify-content: space-between;
+}
+
+.endgame-in {
+    justify-content: center;
+}
+
+.start-players {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.player-counter {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    width: 70px;
+    justify-content: center;
+}
+
+.player-counter div:not(:nth-child(2)) {
+    background: #0B2434;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+}
+
+.current-player {
+    font-size: 13px;
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 1px 10px;
+    border-radius: 9px;
+    color: #F5F5F5;
+}
+
+.title, .start-title, .player-title {
+    font-size: 25.5px;
+    margin-bottom: 8px;
+}
+
+.player-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.player-input {
+    height: 30px;
+    text-indent: 10px;
+    border: 2px solid #0B2434;
+    border-radius: 5px;
+}
+
+.instructions {
+    font-size: 13px;
+    margin-bottom: 23px;
+}
+
+.dice-container {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 18.5px;
+    margin-bottom: 25.5px;
+}
+
+.die {
+    aspect-ratio: 1;
+    width: 37px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px #00000026;
+    font-size: 21px;
+    text-align: center;
+    line-height: 37px;
+    background: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.held {
+    background: #59E391;
+}
+
+.start-btn {
+    width: 198px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background: #5035FF;
+    color: #fff;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-size: 24px;
+}
+
+.roll-btn, .player-btn {
+    width: 92px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 4px;
+    background: #5035FF;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.7);
+}
+
+.roll-btn:active, .player-btn:active {
+    box-shadow: none;
+}
+
+.winner-el {
+    background: #fff;
+    width: 70%;
+    height: 2rem;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.winner-el:first-child {
+    background: rgba(11, 36, 52, 0.3);
+    width: 90%;
+    height: 3.5rem;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.75rem;
+    font-size: 1.5rem;
+    border: 2px solid #0B2434;
+}
+
+.winner-el span {
+    background: #0B2434;
+    aspect-ratio: 1;
+    width: 15%;
+    text-align: center;
+    line-height: 160%;
+    color: #fff;
+    border-radius: 50%
+}
+
+.one, .two, .three, .four, .five, .six {
+    display: grid;
+    grid-template: auto auto / repeat(3, 1fr);
+    align-items: center;
+    gap: 3px;
+    padding: 5px 5px;
+}
+
+.one>div, .two>div, .three>div, .four>div, .five>div, .six>div {
+    aspect-ratio: 1;
+    width: 7px;
+    border-radius: 50%;
+}
+
+.black-dot {
+    background: #000;
+}
+
+.held .black-dot {
+    background: #fff;
+}
