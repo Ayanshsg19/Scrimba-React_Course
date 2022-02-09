@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    color: #293264;
+    font-size: 16px;
+}
+
+.start-in {
+    aspect-ratio: 1;
+    min-width: 550px;
+    background: url(./background.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.start-head {
+    font-size: 31.25px;
+    font-weight: bold;
+}
+
+.start-drop {
+    margin-top: 10px; 
+    width: 80%;
+    height: 30px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 7px; 
+    font-family: "Karla", sans-serif;
+}
+
+.start-btn {
+    background: #4D5B9E;
+    color: #fff;
+    width: 192px;
+    height: 52px;
+    line-height: 52px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.main-in {
+    aspect-ratio: 1;
+    min-width: 550px;
+    background: url(./background.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px 10px;
+}
+
+.main-ques {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-options {
+    font-size: 10.5px;
+    display: grid;
+    grid-template: auto auto / repeat(4, 1fr);
+    gap: 9px;
+    margin-block: 10px; 
+}
+
+.main-options div {
+    border: 1px solid #4D5B9E;
+    padding: 4px 10px;
+    border-radius: 8px;
+}
+
+div.selected {
+    background: #D6DBF5;
+    border: none;    
+}
+
+div.correct {
+    background: #94D7A2;
+    border: none;
+}
+
+div.wrong {
+    background: #F8BCBC;
+    border: none;
+}
+
+div.others {
+    opacity: 0.5;
+} 
+
+hr {
+    border: 1px solid #DBDEF0;
+}
+
+.main-check-btn {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background: #4D5B9E;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.result {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.result-desc {
+    color: #293264;
+    font-weight: bold;
+}
+
+.refresh-btn {
+    background: #4D5B9E;
+    height: 30px;
+    width: 104px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
