@@ -1,6 +1,6 @@
 # Scrimba - Project 5 - Quizzical (React.js)
 
-<img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/Meme-Generator/Meme%20Generator.png" width="450">
+<img src="https://github.com/Ayanshsg19/Scrimba-React_Course/blob/main/Quizzical/QuizzicalApp.png" width="1450">
 
 Quick start:
 
